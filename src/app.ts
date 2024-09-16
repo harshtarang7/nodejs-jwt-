@@ -10,7 +10,7 @@ connectDB();
 
 app.use(express.json());
 
-app.use('/auth/',route)
+app.use('/api/',route)
 
 export default app;
 
